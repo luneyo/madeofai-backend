@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+praw
+requests
+python-dotenv
+sqlite3-bro
