@@ -73,6 +73,7 @@ async def analyze(term: str, request: Request):
 
 @app.get("/admin")
 async def admin(key: str):
+
     """Return all logged searches as JSON."""
     ADMIN_KEY = os.getenv("ADMIN_KEY", "changeme")
 
